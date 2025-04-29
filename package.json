@@ -1,0 +1,22 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkashGhorpade9/playwright-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkashGhorpade9/playwright-framework/issues"
+  },
+  "homepage": "https://github.com/AkashGhorpade9/playwright-framework#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3"
+  }
+}
