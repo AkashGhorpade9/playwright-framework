@@ -16,7 +16,7 @@ class LoginPage{
         this.page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     }
 
-    async loginToOrangeHrm(){
+    async loginOrangeHrm(){
         this.userName.fill('Admin');
         this.password.fill('admin123');
         this.loginButton.click();
