@@ -1,5 +1,5 @@
 import { Page,Locator } from "@playwright/test";
-class LoginPage{
+export class LoginPage{
     readonly page:Page;
     readonly userName:Locator;
     readonly password: Locator;
@@ -13,12 +13,12 @@ class LoginPage{
     }
 
     async gotoUrl(){
-        this.page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+       await this.page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     }
 
     async loginOrangeHrm(){
-        this.userName.fill('Admin');
-        this.password.fill('admin123');
-        this.loginButton.click();
+        await this.userName.fill('Admin');
+        await this.password.fill('admin123');
+        await this.loginButton.click();
     }
 }
